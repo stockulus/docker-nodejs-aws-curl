@@ -3,14 +3,14 @@
 ## features
 
 image is based on node-slim (version 12)
-additional it has curl and aws cli installed, basically all you need for our node build.
+additional it has curl and aws cli installed, basically all you need for node build.
 
 ## usage
 
 just put this in your gitlab-ci.yml
 
 ```yml
-image: docker pull stockulus/nodejs-aws-curl
+image: stockulus/nodejs-aws-curl
 ```
 
 ## Development
